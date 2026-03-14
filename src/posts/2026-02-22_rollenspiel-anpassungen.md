@@ -3,7 +3,6 @@
 title: "Vice/Starships - Beobachtungen und Systemupdates"
 description: "Log-Eintrag über die Anpassung von Vice/Starships, die gestrige RPG-Session sowie den aktuellen Stand meiner Umschulung in Code"
 pubDate: 2026-02-22
-author: "mdohr"
 
 # Medien
 image:
@@ -12,6 +11,7 @@ image:
 
 # Kategorien & Stimmung
 tags:
+  - post
   - persönlich
   - reflexion
   - soloRPG
@@ -24,7 +24,6 @@ music:
   artist: "Midnight Decay"
   url: "https://youtu.be/nCknpCr6iwo?si=nX4tJjL66DnL8iMO"
 
-draft: false
 ---
 
 Es ist Sonntagmorgen, der Kaffee bleibt nie lang genug heiß.

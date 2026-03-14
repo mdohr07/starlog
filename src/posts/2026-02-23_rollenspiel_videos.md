@@ -11,6 +11,7 @@ image:
 
 # Kategorien & Stimmung
 tags:
+  - post
   - persönlich
   - reflexion
   - journal

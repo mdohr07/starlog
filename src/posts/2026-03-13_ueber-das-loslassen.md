@@ -1,7 +1,7 @@
 ---
 title: "Über das Loslassen (von Claude AI)"
 description: "Gedanken über Loslassen, leere Hände und den Weltraum dazwischen."
-pubDate: 2026-03-08
+pubDate: 2026-03-13
 slug: ueber-das-loslassen
 tags:
   - post
