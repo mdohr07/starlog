@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Eleventy Output
+public/
+
+# Log-Dateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac / Linux / Windows Systemdateien
+.DS_Store
+Thumbs.db
+
+# Optional: lokale Editor-Einstellungen
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Backup files
+*~

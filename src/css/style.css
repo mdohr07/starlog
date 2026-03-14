@@ -1,0 +1,514 @@
+/* ============================================
+   STARLOG — Terminal Style
+   Gold on Black
+   ============================================ */
+
+:root {
+  --bg:          #111111;
+  --bg-hover:    #1a1200;
+  --gold:        #c39768;
+  --gold-dim:    #7a5a38;
+  --gold-glow:   #c3976855;
+  --border:      #2e2010;
+  --text:        #c39768;
+  --text-dim:    #6a4a28;
+  --red:         #f54927;
+  --font:        monospace;
+  --header-h:    48px;
+  --footer-h:    36px;
+  --max-w:       720px;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ── Scanline overlay ── */
+body::after {
+  content: '';
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.1) 2px,
+    rgba(0, 0, 0, 0.1) 4px
+  );
+  z-index: 999;
+}
+
+/* ── Layout ── */
+.site-wrapper {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+main {
+  flex: 1;
+  padding: 32px 28px;
+}
+
+/* ── Typography ── */
+a {
+  color: var(--gold);
+  text-decoration: underline dotted;
+}
+
+a:hover {
+  text-shadow: 0 0 8px var(--gold-glow);
+}
+
+p {
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 20px 0;
+}
+
+/* ── Header ── */
+.site-header {
+  height: var(--header-h);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.site-title {
+  font-size: 18px;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+  text-shadow: 0 0 12px var(--gold-glow);
+  text-decoration: none;
+}
+
+.site-title a {
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-shadow: 0 0 20px var(--gold-glow);
+}
+
+.header-sub {
+  font-size: 11px;
+  color: var(--gold-dim);
+  letter-spacing: 0.05em;
+}
+
+/* ── Footer ── */
+.site-footer {
+  height: var(--footer-h);
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 24px;
+  font-size: 10px;
+  color: var(--text-dim);
+}
+
+.footer-sep {
+  color: var(--border);
+}
+
+/* ── Captain's ID (Startseite) ── */
+.id-box {
+  border: 1px solid var(--border);
+  padding: 14px;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.id-box .box-label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background: var(--bg);
+  padding: 0 6px;
+  font-size: 10px;
+  color: var(--gold-dim);
+  letter-spacing: 0.15em;
+}
+
+.id-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px 20px;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.id-grid .label {
+  color: var(--text-dim);
+}
+
+.id-grid .value {
+  color: var(--text);
+}
+
+.id-grid .value.active {
+  color: var(--gold);
+}
+
+.id-grid .value.dim {
+  color: var(--text-dim);
+}
+
+/* ── Log Entries (Startseite) ── */
+.entries-label {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.entries-label .count {
+  color: var(--border);
+}
+
+.entries {
+  border-top: 1px solid var(--border);
+  margin-bottom: 8px;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 90px 90px 1fr;
+  gap: 0 12px;
+  font-size: 13px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+}
+
+.entry-date {
+  color: var(--text-dim);
+}
+
+.entry-tag {
+  color: var(--gold-dim);
+  font-size: 10px;
+  align-self: center;
+  letter-spacing: 0.06em;
+}
+
+.entry-title {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.entry:hover .entry-title {
+  text-shadow: 0 0 8px var(--gold-glow);
+}
+
+.archive-link {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 24px;
+}
+
+/* ── Quick links (Startseite) ── */
+.quick-links {
+  display: flex;
+  gap: 24px;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 24px;
+}
+
+/* ── Divider ── */
+.divider {
+  font-size: 11px;
+  color: var(--border);
+  margin: 20px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ── Music block ── */
+.music-block {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.music-block .music-label {
+  color: var(--gold-dim);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.music-block .music-sep {
+  color: var(--text-dim);
+}
+
+.music-block .music-artist {
+  color: var(--gold);
+}
+
+/* ── Cursor ── */
+.cursor-line {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 8px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+  color: var(--gold);
+}
+
+/* ── Flicker animation ── */
+@keyframes flicker {
+  0%,  100% { opacity: 1;   }
+  91%        { opacity: 1;   }
+  92%        { opacity: 0.3; }
+  93%        { opacity: 1;   }
+  97%        { opacity: 1;   }
+  98%        { opacity: 0.5; }
+  99%        { opacity: 1;   }
+}
+
+.flicker {
+  animation: flicker 7s infinite;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
+
+/* ============================================
+   STARLOG — Post Page
+   (append to style.css)
+   ============================================ */
+
+/* ── Post header ── */
+.post-meta {
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.post-meta .tag {
+  color: var(--gold-dim);
+}
+
+.post-title {
+  font-size: 20px;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+  font-weight: normal;
+}
+
+.post-sub {
+  font-size: 10px;
+  color: var(--text-dim);
+  margin-bottom: 0;
+}
+
+/* ── Post content ── */
+.post-content {
+  font-size: 13px;
+  color: var(--gold);
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+
+.post-content p {
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+
+.post-content h2 {
+  font-size: 13px;
+  color: var(--gold-dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 24px 0 10px;
+  font-weight: normal;
+}
+
+.post-content h2::before {
+  content: '// ';
+  color: var(--border);
+}
+
+.post-content h3 {
+  font-size: 13px;
+  color: var(--gold-dim);
+  margin: 16px 0 8px;
+  font-weight: normal;
+}
+
+.post-content blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 14px;
+  color: var(--gold-dim);
+  font-style: italic;
+  margin: 16px 0;
+}
+
+.post-content code {
+  background: var(--bg-hover);
+  color: var(--red);
+  padding: 1px 6px;
+  font-family: var(--font);
+  font-size: 13px;
+  border: 1px solid var(--border);
+}
+
+.post-content pre {
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  padding: 14px;
+  overflow-x: auto;
+  margin: 16px 0;
+  position: relative;
+}
+
+.post-content pre::before {
+  content: '> OUTPUT';
+  display: block;
+  font-size: 10px;
+  color: var(--gold-dim);
+  letter-spacing: 0.15em;
+  margin-bottom: 8px;
+}
+
+.post-content pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--gold);
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 20px;
+  margin-bottom: 14px;
+  color: var(--gold);
+}
+
+.post-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-content ul li::before {
+  content: '→ ';
+  color: var(--gold-dim);
+}
+
+.post-content a {
+  color: var(--gold);
+  text-decoration: underline dotted;
+}
+
+.post-content a:hover {
+  text-shadow: 0 0 8px var(--gold-glow);
+}
+
+/* ── Post tags ── */
+.post-tags {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.post-tags .label {
+  color: var(--text-dim);
+}
+
+.post-tags .sep {
+  color: var(--text-dim);
+}
+
+.tag-box {
+  color: var(--gold-dim);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+
+/* ── Post navigation (prev/next) ── */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+}
+
+.post-nav a {
+  color: var(--gold);
+  text-decoration: underline dotted;
+  max-width: 45%;
+}
+
+.post-nav a:hover {
+  text-shadow: 0 0 8px var(--gold-glow);
+}
+
+.post-nav .prev::before {
+  content: '← ';
+}
+
+.post-nav .next::after {
+  content: ' →';
+}
+
+/* ── Archive ── */
+.archive-year {
+  font-size: 10px;
+  color: var(--gold-dim);
+  letter-spacing: 0.15em;
+  padding: 16px 0 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+}
+
+.archive-year::before {
+  content: '// ';
+  color: var(--border);
+}

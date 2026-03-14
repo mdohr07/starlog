@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: "Home"
+---
+<div class="id-box">
+  <div class="box-label">&gt; CAPTAIN'S ID</div>
+  <div class="id-grid">
+    <span class="label">DESIGNATION</span><span>{{ site.author }}</span>
+    <span class="label">STATUS</span><span class="active">◆ ACTIVE</span>
+    <span class="label">MISSION</span><span class="dim">writing · solo rpg · reflexion</span>
+  </div>
+</div>
+
+<div class="entries-label">&gt; RECENT ENTRIES</div>
+<div class="entries">
+  {% for post in collections.post | reverse | limit(3) %}
+    <div class="entry">
+      <span class="entry-date">{{ post.date | date("yyyy.MM.dd") }}</span>
+      <span class="entry-tag">{{ post.data.tags[1] }}</span>
+      <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="archive-link">└─ → <a href="/archive/">access full archive</a></div>

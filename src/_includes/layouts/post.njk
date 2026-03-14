@@ -1,0 +1,56 @@
+---
+layout: base.njk
+---
+<article>
+
+  <div class="post-meta">
+    &gt; LOG ENTRY // {{ pubDate | date("yyyy.MM.dd") }} //
+    {% for tag in tags %}
+      {% if tag != "post" %}
+        <span class="tag">{{ tag | upper }}</span>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h1 class="post-title">{{ title }}</h1>
+  <p class="post-sub">{{ site.author }} &nbsp;·&nbsp; {{ content | wordcount }} Wörter</p>
+
+  <div class="divider">├────────────────────────────────────────────────</div>
+
+{# TODO : #}
+  {# {% if music %}
+    {% include "components/music.njk" %}
+  {% endif %} #}
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+
+  <div class="cursor-line">_ <span class="blink">▌</span></div>
+
+  <div class="divider">├────────────────────────────────────────────────</div>
+
+  {% if tags %}
+    <div class="post-tags">
+      <span class="label">TAGS</span>
+      <span class="sep">│</span>
+      {% for tag in tags %}
+        {% if tag != "post" %}
+          <span class="tag-box">{{ tag }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="post-nav">
+    {% if previousPost %}
+      <a href="{{ previousPost.url }}" class="prev">{{ previousPost.data.title }}</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if nextPost %}
+      <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }}</a>
+    {% endif %}
+  </div>
+
+</article>
