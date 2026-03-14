@@ -1,8 +1,7 @@
 ---
-title: "Über das Loslassen"
+title: "Über das Loslassen (von Claude AI)"
 description: "Gedanken über Loslassen, leere Hände und den Weltraum dazwischen."
 pubDate: 2026-03-08
-author: "mdohr"
 slug: ueber-das-loslassen
 tags:
   - post

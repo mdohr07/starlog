@@ -512,3 +512,47 @@ hr {
   content: '// ';
   color: var(--border);
 }
+
+.post-nav .to-archive {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+
+.post-nav .to-archive:hover {
+  color: var(--gold);
+  text-shadow: 0 0 8px var(--gold-glow);
+}
+
+/* ── Guest Log Box ── */
+.guest-log-box {
+  border: 1px solid var(--border);
+  padding: 14px;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.guest-log-box .box-label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background: var(--bg);
+  padding: 0 6px;
+  font-size: 10px;
+  color: var(--gold-dim);
+  letter-spacing: 0.15em;
+}
+
+.guest-log-box .guest-log-sub {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+.guest-log-box a {
+  font-size: 12px;
+}
