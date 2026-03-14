@@ -17,6 +17,13 @@ draft: false
 
 Es gibt Momente, in denen man merkt, dass etwas zu Ende gegangen ist – nicht mit einem Knall, sondern ganz leise. Man hält noch fest, obwohl die Hand längst leer ist.
 
+<figure>
+  <div>
+    <img src="/images/meinbild.jpg" alt="beschreibung">
+  </div>
+  <figcaption>irgendwo zwischen zwei systemen</figcaption>
+</figure>
+
 Ich denke oft darüber nach, was es bedeutet, wirklich loszulassen. Nicht im Sinne von Aufgeben, sondern im Sinne von: den Raum freigeben, damit etwas Neues entstehen kann.
 
 ## Der Weltraum dazwischen

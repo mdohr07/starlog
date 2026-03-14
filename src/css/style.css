@@ -498,6 +498,53 @@ hr {
   content: ' →';
 }
 
+/* ── Images in posts ── */
+.post-content figure {
+  margin: 20px 0;
+}
+
+.post-content figure > div {
+  position: relative;
+  border: 1px solid var(--border);
+  padding: 10px;
+}
+
+.post-content figure > div::before {
+  content: '> IMAGE';
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background: var(--bg);
+  padding: 0 6px;
+  font-size: 10px;
+  color: var(--gold-dim);
+  letter-spacing: 0.15em;
+  z-index: 1;
+}
+
+.post-content img {
+  display: block;
+  width: 100%;
+  filter: brightness(0.6) sepia(20%); /* grayscale(100%) */
+  transition: filter 0.3s;
+}
+
+.post-content img:hover {
+  filter: grayscale(60%) brightness(0.8) sepia(10%);
+}
+
+.post-content figcaption {
+  font-size: 10px;
+  color: var(--text-dim);
+  padding: 6px 0 0;
+  letter-spacing: 0.05em;
+}
+
+.post-content figcaption::before {
+  content: '// ';
+  color: var(--border);
+}
+
 /* ── Archive ── */
 .archive-year {
   font-size: 10px;
