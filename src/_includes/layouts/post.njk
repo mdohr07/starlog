@@ -3,24 +3,23 @@ layout: base.njk
 ---
 <article>
 
-  <div class="post-meta">
-    &gt; LOG ENTRY // {{ pubDate | date("yyyy.MM.dd") }} //
-    {% for tag in tags %}
-      {% if tag != "post" %}
-        <span class="tag">{{ tag | upper }}</span>
-      {% endif %}
-    {% endfor %}
-  </div>
+<div class="post-meta">
+  &gt; LOG ENTRY // {{ pubDate | date("yyyy.MM.dd") }} //
+  {% for tag in tags %}
+  {% endfor %}
+  {% if mood %}
+  <span class="tag">MOOD: {{ mood }}</span>
+{% endif %}
+</div>
 
-  <h1 class="post-title">{{ title }}</h1>
+
+<h1 class="post-title">{{ title }}</h1>
+
   <p class="post-sub">{{ site.author }} &nbsp;·&nbsp; {{ content | wordcount }} Wörter</p>
 
-  <div class="divider">├────────────────────────────────────────────────</div>
-
-{# TODO : #}
-  {# {% if music %}
+  {% if music %}
     {% include "components/music.njk" %}
-  {% endif %} #}
+  {% endif %}
 
   <div class="post-content">
     {{ content | safe }}

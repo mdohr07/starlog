@@ -12,7 +12,6 @@ music:
   title: "To The Last Breath"
   artist: "Arch Enemy"
   url: "https://youtu.be/WujjCSEJcDk"
-draft: false
 ---
 
 Es gibt Momente, in denen man merkt, dass etwas zu Ende gegangen ist – nicht mit einem Knall, sondern ganz leise. Man hält noch fest, obwohl die Hand längst leer ist.
