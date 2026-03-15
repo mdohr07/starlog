@@ -311,6 +311,15 @@ hr {
   animation: flicker 7s infinite;
 }
 
+.flicker2 {
+  animation: flicker 4s infinite;
+}
+
+.flicker3 {
+  animation: flicker 8s infinite;
+}
+
+
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
