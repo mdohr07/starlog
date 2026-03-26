@@ -12,6 +12,7 @@ yarn-error.log*
 # Mac / Linux / Windows Systemdateien
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Optional: lokale Editor-Einstellungen
 .vscode/
