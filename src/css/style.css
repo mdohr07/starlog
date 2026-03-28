@@ -31,7 +31,7 @@ html, body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   cursor: crosshair;
 }
@@ -120,7 +120,7 @@ hr {
 }
 
 .header-sub {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.05em;
 }
@@ -145,7 +145,7 @@ hr {
 .id-box {
   border: 1px solid var(--border);
   padding: 14px;
-  margin-bottom: 28px;
+  margin: 28px 0px;
   position: relative;
 }
 
@@ -155,7 +155,7 @@ hr {
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 10px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
 }
@@ -186,9 +186,10 @@ hr {
 
 /* ── Log Entries (Startseite) ── */
 .entries-label {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--text-dim);
   letter-spacing: 0.1em;
+  margin-top: 50px;
   margin-bottom: 8px;
 }
 
@@ -216,7 +217,7 @@ hr {
 
 .entry-tag {
   color: var(--gold-dim);
-  font-size: 10px;
+  font-size: 14px;
   align-self: center;
   letter-spacing: 0.06em;
 }
@@ -231,7 +232,7 @@ hr {
 }
 
 .archive-link {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 24px;
 }
@@ -240,14 +241,14 @@ hr {
 .quick-links {
   display: flex;
   gap: 24px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 24px;
 }
 
 /* ── Divider ── */
 .divider {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--border);
   margin: 20px 0;
   overflow: hidden;
@@ -258,7 +259,7 @@ hr {
 .music-block {
   border: 1px solid var(--border);
   padding: 8px 12px;
-  margin: 20px 0px;
+  margin: 20px 0px 40px 0px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -267,7 +268,7 @@ hr {
 
 .music-block .music-label {
   color: var(--gold-dim);
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.1em;
 }
 
@@ -281,7 +282,7 @@ hr {
 
 /* ── Cursor ── */
 .cursor-line {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-top: 8px;
 }
@@ -333,7 +334,7 @@ hr {
 
 /* ── Post header ── */
 .post-meta {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--text-dim);
   letter-spacing: 0.1em;
   margin-bottom: 8px;
@@ -352,7 +353,7 @@ hr {
 }
 
 .post-sub {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 0;
 }
@@ -420,7 +421,7 @@ hr {
 .post-content pre::before {
   content: '> OUTPUT';
   display: block;
-  font-size: 10px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   margin-bottom: 8px;
@@ -464,7 +465,7 @@ hr {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 
@@ -480,7 +481,7 @@ hr {
   color: var(--gold-dim);
   border: 1px solid var(--border);
   padding: 2px 8px;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.05em;
 }
 
@@ -488,7 +489,7 @@ hr {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 20px;
 }
@@ -529,7 +530,7 @@ hr {
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 10px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   z-index: 1;
@@ -547,7 +548,7 @@ hr {
 }
 
 .post-content figcaption {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--text-dim);
   padding: 6px 0 0;
   letter-spacing: 0.05em;
@@ -560,7 +561,7 @@ hr {
 
 /* ── Archive ── */
 .archive-year {
-  font-size: 10px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   padding: 16px 0 6px;
@@ -576,7 +577,7 @@ hr {
 .post-nav .to-archive {
   color: var(--text-dim);
   text-decoration: none;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   align-self: center;
 }
@@ -590,7 +591,7 @@ hr {
 .guest-log-box {
   border: 1px solid var(--border);
   padding: 14px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 24px;
   position: relative;
 }
@@ -601,18 +602,18 @@ hr {
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 10px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
 }
 
 .guest-log-box .guest-log-sub {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 12px;
   margin-top: 4px;
 }
 
 .guest-log-box a {
-  font-size: 12px;
+  font-size: 14px;
 }
