@@ -31,7 +31,7 @@ html, body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   cursor: crosshair;
 }
@@ -120,7 +120,7 @@ hr {
 }
 
 .header-sub {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.05em;
 }
@@ -151,11 +151,11 @@ hr {
 
 .id-box .box-label {
   position: absolute;
-  top: -8px;
+  top: -14px;
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
 }
@@ -164,7 +164,7 @@ hr {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 5px 20px;
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 4px;
 }
 
@@ -186,7 +186,7 @@ hr {
 
 /* ── Log Entries (Startseite) ── */
 .entries-label {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   letter-spacing: 0.1em;
   margin-top: 50px;
@@ -203,9 +203,9 @@ hr {
 
 .entry {
   display: grid;
-  grid-template-columns: 90px 90px 1fr;
-  gap: 0 12px;
-  font-size: 16px;
+  grid-template-columns: 90px 1fr;
+  gap: 0 50px;
+  font-size: 18px;
   padding: 7px 0;
   border-bottom: 1px solid var(--border);
   text-decoration: none;
@@ -217,7 +217,7 @@ hr {
 
 .entry-tag {
   color: var(--gold-dim);
-  font-size: 14px;
+  font-size: 16px;
   align-self: center;
   letter-spacing: 0.06em;
 }
@@ -232,7 +232,7 @@ hr {
 }
 
 .archive-link {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   margin-bottom: 24px;
 }
@@ -241,14 +241,14 @@ hr {
 .quick-links {
   display: flex;
   gap: 24px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   margin-bottom: 24px;
 }
 
 /* ── Divider ── */
 .divider {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--border);
   margin: 20px 0;
   overflow: hidden;
@@ -263,12 +263,12 @@ hr {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .music-block .music-label {
   color: var(--gold-dim);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.1em;
 }
 
@@ -282,7 +282,7 @@ hr {
 
 /* ── Cursor ── */
 .cursor-line {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   margin-top: 8px;
 }
@@ -334,7 +334,7 @@ hr {
 
 /* ── Post header ── */
 .post-meta {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   letter-spacing: 0.1em;
   margin-bottom: 8px;
@@ -353,14 +353,14 @@ hr {
 }
 
 .post-sub {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   margin-bottom: 0;
 }
 
 /* ── Post content ── */
 .post-content {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--gold);
   line-height: 1.9;
   margin-bottom: 24px;
@@ -372,7 +372,7 @@ hr {
 }
 
 .post-content h2 {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--gold-dim);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -386,7 +386,7 @@ hr {
 }
 
 .post-content h3 {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--gold-dim);
   margin: 16px 0 8px;
   font-weight: normal;
@@ -405,7 +405,7 @@ hr {
   color: var(--red);
   padding: 1px 6px;
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 18px;
   border: 1px solid var(--border);
 }
 
@@ -421,7 +421,7 @@ hr {
 .post-content pre::before {
   content: '> OUTPUT';
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   margin-bottom: 8px;
@@ -465,7 +465,7 @@ hr {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
@@ -481,7 +481,7 @@ hr {
   color: var(--gold-dim);
   border: 1px solid var(--border);
   padding: 2px 8px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.05em;
 }
 
@@ -489,7 +489,7 @@ hr {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   margin-bottom: 20px;
 }
@@ -526,11 +526,11 @@ hr {
 .post-content figure > div::before {
   content: '> IMAGE';
   position: absolute;
-  top: -8px;
+  top: -14px;
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   z-index: 1;
@@ -548,7 +548,7 @@ hr {
 }
 
 .post-content figcaption {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   padding: 6px 0 0;
   letter-spacing: 0.05em;
@@ -561,7 +561,7 @@ hr {
 
 /* ── Archive ── */
 .archive-year {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   padding: 16px 0 6px;
@@ -577,7 +577,7 @@ hr {
 .post-nav .to-archive {
   color: var(--text-dim);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   align-self: center;
 }
@@ -598,22 +598,22 @@ hr {
 
 .guest-log-box .box-label {
   position: absolute;
-  top: -8px;
+  top: -14px;
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
 }
 
 .guest-log-box .guest-log-sub {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-dim);
   margin-bottom: 12px;
   margin-top: 4px;
 }
 
 .guest-log-box a {
-  font-size: 14px;
+  font-size: 16px;
 }

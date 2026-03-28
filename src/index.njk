@@ -18,7 +18,6 @@ title: "Home"
   {% for post in collections.post | reverse | limit(5) %}
     <div class="entry">
       <span class="entry-date">{{ post.date | date("yyyy.MM.dd") }}</span>
-      <span class="entry-tag">{{ post.data.tags[1] }}</span>
       <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
     </div>
   {% endfor %}
