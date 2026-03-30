@@ -3,6 +3,9 @@ title: "Systemwechsel: Linux Mint Cinnamon"
 description: "Ein Logeintrag über die Migration von Windows 11 zu Linux Mint Cinnamon mit Beobachtungen."
 pubDate: 2026-03-30
 slug: wechsel-zu-linux
+image:
+  url: "/images/blog/2026-03/current-linux-setup.png"
+  alt: ""
 tags: 
   - post
   - persönlich
@@ -13,7 +16,6 @@ music:
   artist: "Sirenia"
   url: "https://youtu.be/XVFRnepLO4Q"
 ---
-
 
 Abends mit Bier. Draußen ist es noch hell. Die Rollos sind unten.
 
