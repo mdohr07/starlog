@@ -368,7 +368,7 @@ hr {
 
 .post-content p {
   color: var(--gold);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .post-content h2 {
@@ -376,7 +376,7 @@ hr {
   color: var(--gold-dim);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin: 24px 0 10px;
+  margin: 32px 0 10px;
   font-weight: normal;
 }
 
@@ -388,7 +388,7 @@ hr {
 .post-content h3 {
   font-size: 18px;
   color: var(--gold-dim);
-  margin: 16px 0 8px;
+  margin: 32px 0 8px;
   font-weight: normal;
 }
 
@@ -541,6 +541,7 @@ hr {
   width: 100%;
   filter: contrast(0.9) grayscale(20%) brightness(0.5) sepia(60%);
   transition: filter 1s;
+   margin: 32px 0px;
 }
 
 .post-content img:hover {
