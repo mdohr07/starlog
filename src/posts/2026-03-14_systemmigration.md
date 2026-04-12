@@ -7,7 +7,7 @@ tags:
   - post
   - persönlich
   - reflexion
-  - ech
+  - tech
 mood: "müde"
 music:
   title: "DUNE | Arrakis Outpost "
