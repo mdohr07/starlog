@@ -1,21 +1,26 @@
+--- 
+layout: base.njk 
 ---
-layout: base.njk
----
+
 <article>
 
-<div class="post-meta">
-  &gt; LOG ENTRY // {{ pubDate | date("yyyy.MM.dd") }} //
-  {% for tag in tags %}
-  {% endfor %}
-  {% if mood %}
-  <span class="tag">MOOD: {{ mood }}</span>
-{% endif %}
-</div>
+  <div class="post-meta">
+    &gt; LOG ENTRY //
+    {{ pubDate | date("yyyy.MM.dd") }}
+    //
+    {% for tag in tags %}{% endfor %}
+    {% if mood %}
+      <span class="tag">MOOD:
+        {{ mood }}</span>
+    {% endif %}
+  </div>
 
+  <h1 class="post-title">{{ title }}</h1>
 
-<h1 class="post-title">{{ title }}</h1>
-
-  <p class="post-sub">{{ site.author }} &nbsp;·&nbsp; {{ content | wordcount }} Wörter</p>
+  <p class="post-sub">{{ site.author }}
+    &nbsp;·&nbsp;
+    {{ content | wordcount }}
+    Wörter</p>
 
   {% if music %}
     {% include "components/music.njk" %}
@@ -25,7 +30,8 @@ layout: base.njk
     {{ content | safe }}
   </div>
 
-  <div class="cursor-line">_ <span class="blink">▌</span></div>
+  <div class="cursor-line">_
+    <span class="blink">▌</span></div>
 
   <div class="divider">├────────────────────────────────────────────────</div>
 
@@ -35,7 +41,7 @@ layout: base.njk
       <span class="sep">│</span>
       {% for tag in tags %}
         {% if tag != "post" %}
-          <span class="tag-box">{{ tag }}</span>
+          <a href="/tags/{{ tag }}/" class="tag-box">{{ tag }}</a>
         {% endif %}
       {% endfor %}
     </div>
@@ -48,7 +54,7 @@ layout: base.njk
       <span></span>
     {% endif %}
 
-  <a href="/archive/" class="to-archive">// archive</a>
+    <a href="/archive/" class="to-archive">// archive</a>
 
     {% if nextPost %}
       <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }}</a>
