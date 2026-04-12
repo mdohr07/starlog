@@ -22,7 +22,7 @@ mood: "Müde"
 music:
   title: "The Unknowing"
   artist: "Jfarrari"
-  url: "https://music.youtube.com/watch"
+  url: "https://youtu.be/uThdFoa3sNY"
 
 draft: false
 ---

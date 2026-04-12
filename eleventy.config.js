@@ -25,7 +25,9 @@ export default function (eleventyConfig) {
 
   // Prev/Next Navigation für Posts
   eleventyConfig.addCollection("posts", function (collectionApi) {
-    const posts = collectionApi.getFilteredByTag("post").reverse();
+    const posts = collectionApi.getFilteredByTag("post")
+    .filter(post => !post.data.draft)
+    .reverse();
     posts.forEach((post, index) => {
       post.data.previousPost = posts[index + 1] || null;
       post.data.nextPost = posts[index - 1] || null;
