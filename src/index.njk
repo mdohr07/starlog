@@ -15,7 +15,7 @@ title: "Home"
 
 <div class="entries-label">&gt; RECENT ENTRIES</div>
 <div class="entries">
-  {% for post in collections.posts | limit(5) %}
+  {% for post in collections.blogposts | limit(5) %}
     <div class="entry">
       <span class="entry-date">{{ post.date | date("yyyy.MM.dd") }}</span>
       <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
