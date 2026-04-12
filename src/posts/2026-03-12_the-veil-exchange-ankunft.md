@@ -78,4 +78,6 @@ Navigationlogs der letzten Sprünge…<br><br>
 …Teile der Frachtmanifest-Daten.
 </blockquote>
 
-Status: Eindringlinge an Frachtraumluke gestellt. Ihre Namen: Sivren und Kesh. Weitere Aktionen unbestimmt.
+## Status
+
+Eindringlinge an Frachtraumluke gestellt. Ihre Namen: Sivren und Kesh. Weitere Aktionen unbestimmt.

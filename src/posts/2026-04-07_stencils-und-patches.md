@@ -55,10 +55,13 @@ Dazu verwendete Materialien:
 - Schere
 - Cutter
 
-**Status:**
+## Status
+
 Die Jacke ist jetzt gewaschen.  
 Heute wurde sie zum ersten Mal getragen.  
 Patches wurden noch nicht angebracht.
+
+**Anhang:** 
 
 <figure>
   <div>

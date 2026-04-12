@@ -15,6 +15,7 @@ tags:
   - persönlich
   - reflexion
   - projekt
+  - zeichnen
 
 mood: "erschöpft"
 
@@ -47,7 +48,9 @@ Persönliche Favoriten stimmen nicht mit der Resonanz auf Cara überein.
 Keines der Bilder ist digital entstanden. 
 Ein Muster bezüglich der Motive ist auf den ersten Blick nicht erkennbar.
 
-**Status:** Keine weitere Zeichen-Challenge für März geplant.
+## Status 
+
+Keine weitere Zeichen-Challenge für März geplant.
 
 ---
 

@@ -48,6 +48,8 @@ Das Deck ist bereits bestellt.
 Dabei handelt es sich um einfache Spielkarten mit einem zu Vice/Starships passendem Design.  
 Ein System, das ohne Würfel auskommt, ist ein mögliches Ziel.
 
-**Status:** Die Karten erwarte ich mit Ungeduld im Laufe diesen Tages. 
+## Status
+
+Die Karten erwarte ich mit Ungeduld im Laufe dieses Tages. 
 
 <img src="/images/blog/2026-02/2026-02-27 13.23.45.jpg" alt="Foto von Journal mit RPG-Notizen: es ist aufrecht zwichen Laptop und externe Tastatur geklemmt. An den Seiten ein bisschen Kabelsalat und im Hintergrund auf dem Laptop ist Notion mit meiner RPG-Hauptseite geöffnet">

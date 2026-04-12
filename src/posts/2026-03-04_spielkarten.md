@@ -46,7 +46,9 @@ Vorläufige Rückkehr zu bewährten Mischtechniken. Wiederaufnahme der Experimen
 
 Suche nach geeignetem Einzelspieler Kartenspiel ist erfolgt. Ein Video bot eine zufriedenstellende Anleitung. Das Spiel ist Recherchen zufolge ein französischer Ableger von Solitaire. Der Name des Spiels: *Le Tombeau De Napoléon*. Es scheint mehr als eine Version zu geben.
 
-**Status:** Entspannungstechnik in *Le Tombeau De Napoléon* erkannt.
+## Status
+
+Entspannungstechnik in *Le Tombeau De Napoléon* erkannt.
 
 <figure>
   <div>

@@ -10,6 +10,7 @@ tags:
   - post
   - persönlich
   - reflexion
+  - tech
 mood: ""
 music:
   title: "Voyage Voyage"
@@ -66,6 +67,10 @@ Die nachträgliche Installation des Pakets löste den Verbindungsfehler. Punkt e
 Das neue System läuft stabil. Anpassungsmöglichkeiten spiegeln persönliche Präferenzen wider.  
 Seit Systemwechsel sind 364,4GB mehr verfügbar.  
 
-**Status:** Treiberinstallation für Drucker und Scanner ausstehend.  
+## Status
+
+Treiberinstallation für Drucker und Scanner ausstehend.  
+
+**Anhang:** 
 
 <img src="/images/blog/2026-03/voyage-voyage.png" />

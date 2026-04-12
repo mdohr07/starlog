@@ -51,4 +51,5 @@ Es gab viele Attribute und Werte von Negativ bis Positiv. Das war mir neu. Das T
 ### Beobachtung
 Zwei Sci-Fi-Spiele. Unterschiedliche Atmosphäre. Unterschiedliche Komplexität. Travellers gilt als frühes Sci-Fi-Rollenspiel. Vorher keine Kenntnis des Systems, es  wirkt komplex. Es gibt Ähnlichkeiten zwischen **Travellers** und **Starlink: Battle For Atlas**. 
 
-**Status:** Großes Interesse vorhanden.
+## Status
+Großes Interesse vorhanden.

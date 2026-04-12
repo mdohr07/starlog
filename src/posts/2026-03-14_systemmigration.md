@@ -7,6 +7,7 @@ tags:
   - post
   - persönlich
   - reflexion
+  - ech
 mood: "müde"
 music:
   title: "DUNE | Arrakis Outpost "
@@ -38,5 +39,7 @@ Logs werden in separate Ordner kopiert. Gewöhnungsbedürftig.
 Vollständiger Vergleich mit vorherigem System ausstehend.  
 Der Eindruck bisher: simpel und stabil.
 
-**Status:** Grundfunktionalitäten gegeben. Operationsfähigkeit vorhanden.  
+## Status
+
+Grundfunktionalitäten gegeben. Operationsfähigkeit vorhanden.  
 Umsetzung des Tag-Systems noch unzulänglich.

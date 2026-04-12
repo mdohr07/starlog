@@ -14,6 +14,7 @@ tags:
   - post
   - persönlich
   - journal
+  - soloRPG
 
 mood: "Müde"
 
