@@ -50,6 +50,7 @@ Suche nach geeignetem Einzelspieler Kartenspiel ist erfolgt. Ein Video bot eine 
 
 Entspannungstechnik in *Le Tombeau De Napoléon* erkannt.
 
+**Anhang:**  
 <figure>
   <div>
     <img src="/images/blog/2026-03/sunspot.jpg" alt="Kartenspiel auf dem Tisch ausgelegt">
