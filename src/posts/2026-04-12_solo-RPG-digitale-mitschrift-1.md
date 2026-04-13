@@ -1,7 +1,7 @@
 ---
 # Basis-Metadaten
-title: "Beobachtung: Solo RPG digitale Mitschrift"
-description: ""
+title: "Beobachtung: Solo RPG digitale Mitschrift #1"
+description: "Logbuch Eintrag mit Beobachtungen zur aktuellen Solo RPG Methode mit Fokus auf die digitale Mitschrift."
 pubDate: 2026-04-12
 
 # Medien

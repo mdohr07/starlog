@@ -1,13 +1,13 @@
 ---
 # Basis-Metadaten
-title: "Entwurf"
-description: ""
+title: "Beobachtung: Solo RPG digitale Mitschrift #2"
+description: "Logbuch Eintrag mit Beobachtungen zum Test einer alternativen Solo RPG Spielmethode ohne digitale Mitschrift."
 pubDate: 2026-04-13
 
 # Medien
 image:
-  url: ""
-  alt: ""
+  url: "/images/blog/2026-04/2026-04-12_16-35-09.jpg"
+  alt: "Schnelle Skizze zu Planet Thoran mit Notizen"
 
 # Kategorien & Stimmung
 tags:
@@ -16,7 +16,7 @@ tags:
   - journal
   - soloRPG
 
-mood: "Entspannt"
+mood: "Müde"
 
 # Sonstiges
 music:
@@ -24,10 +24,10 @@ music:
   artist: "Not Quite Rock"
   url: "https://youtu.be/SNVq8NUHJo0"
 
-draft: true
+draft: false
 ---
 
-// Intro
+Zu früh. Ein langer Tag steht bevor. Der kalt gewordene Kaffeerest ist bald weg.
 
 **Fokus:** Testrunde des Solo RPGs ohne digitale Mitschrift.
 
@@ -35,7 +35,7 @@ draft: true
 
 Die gespielte Geschichte wird nicht als Erzählung mitgeschrieben.  
 Digitale Werkzeuge sollen eingeschrämkt werden.  
-Digital festgehaltene Regeln und Generatoren werden weiter referenziert.  
+Digital festgehaltene Regeln und Generatoren werden genutzt.  
 
 Bevorzugte Werkzeuge:  
 - Journal
@@ -71,7 +71,7 @@ Der terraformte Planet Thoran als Reiseziel festgelegt.
 Geringfügiger Fehler in System entdeckt.  
 
 Neuer Erzählungsstil erkennbar.  
-Stichworte und Hervorhebung von Schlüsselworten.  
+Stichworte und Hervorhebung von Schlüsselworten hilfreich.  
 Illustrative Zeichnungen entstehen natürlich.  
 
 Unerwartet: Charakterzitate als Erzählmittel entdeckt.
@@ -85,8 +85,21 @@ Euphorie erkannt.
 
 <figure>
   <div>
-    <img src="/images/blog/2026-04/" alt="">
+    <img src="/images/blog/2026-04/2026-04-12_16-34-55.jpg" alt="">
   </div>
-  <figcaption>...</figcaption>
+  <figcaption>New character unlocked</figcaption>
 </figure>
 
+<figure>
+  <div>
+    <img src="/images/blog/2026-04/2026-04-12_16-35-25.jpg" alt="">
+  </div>
+  <figcaption>Ereignis</figcaption>
+</figure>
+
+<figure>
+  <div>
+    <img src="/images/blog/2026-04/2026-04-12_16-35-09.jpg" alt="">
+  </div>
+  <figcaption>Zielort</figcaption>
+</figure>
