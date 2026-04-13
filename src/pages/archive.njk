@@ -6,7 +6,7 @@ permalink: /archive/
 <div class="entries-label">&gt; FULL ARCHIVE <span class="count">// {{ collections.posts | length }} entries</span></div>
 
 {% set currentYear = "" %}
-{% for post in collections.posts | reverse %}
+{% for post in collections.posts %}
 
   {% set postYear = post.date | date("yyyy") %}
   {% if postYear != currentYear %}
