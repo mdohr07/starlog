@@ -33,5 +33,17 @@
     <main>{{ content | safe }}</main>
     {% include "components/footer.njk" %}
   </div>
+
+  <script>
+    const themes = ["default", "theme-green", "theme-white"];
+
+    function setTheme(theme) {
+      document.documentElement.className = theme === "default" ? "" : theme;
+      localStorage.setItem("theme", theme);
+    }
+    // Theme beim Laden wiederherstellen
+    const saved = localStorage.getItem("theme");
+    if (saved) setTheme(saved);
+  </script>
 </body>
 </html>

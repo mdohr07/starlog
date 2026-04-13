@@ -3,6 +3,7 @@
    Gold on Black
    ============================================ */
 
+/* Standard Theme: Gold */
 :root {
   --bg:          #111111;
   --bg-hover:    #1a1200;
@@ -17,6 +18,43 @@
   --header-h:    48px;
   --footer-h:    36px;
   --max-w:       720px;
+}
+
+
+/* Theme: Grün */
+:root.theme-green {
+  --gold:      #33ff33;
+  --gold-dim:  #1a7a1a;
+  --gold-glow: #33ff3355;
+  --border:    #0a2a0a;
+  --text:      #33ff33;
+  --text-dim:  #1a7a1a;
+  --bg-hover:  #001400;
+}
+
+/* Theme: White */
+:root.theme-white {
+  --gold:      #e0e0e0;
+  --gold-dim:  #707070;
+  --gold-glow: #e0e0e055;
+  --border:    #2a2a2a;
+  --text:      #e0e0e0;
+  --text-dim:  #707070;
+  --bg-hover:  #1a1a1a;
+}
+
+.theme-switcher {
+  display: inline;
+  text-align: right;
+}
+
+.theme-switcher button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  display: inline;
 }
 
 /* ── Reset ── */
@@ -94,6 +132,19 @@ hr {
 }
 
 /* ── Header ── */
+header {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
 .site-header {
   height: var(--header-h);
   border-bottom: 1px solid var(--border);
