@@ -1,6 +1,6 @@
 ---
 # Basis-Metadaten
-title: "Kurskorrektur: digital zu analog"
+title: "Kurskorrektur: digital zu analog #1"
 description: "Sachlicher Logbuch Eintrag über die Reduzierung der Bildschirmzeitund das ersetzen digitaler Aktivitäten durch analoge."
 pubDate: 2026-04-11
 
