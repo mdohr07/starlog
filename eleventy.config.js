@@ -2,6 +2,7 @@ import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/images");
 
   // Tag-Collection
