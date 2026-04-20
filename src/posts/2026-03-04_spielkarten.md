@@ -1,6 +1,6 @@
 ---
 # Basis-Metadaten
-title: "Stargazer Sunspot Spielkarten"
+title: "Neuzugang: Stargazer Sunspot Spielkarten"
 description: "Ein ruhiger Logbucheintrag über neue Spielkarten, misslungene Mischversuche und Entspannungstechnik."
 pubDate: 2026-03-04
 
