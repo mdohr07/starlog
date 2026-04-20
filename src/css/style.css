@@ -192,6 +192,20 @@ header {
   color: var(--border);
 }
 
+/* WARN */
+.sys-warn {
+  animation: blink 1.2s step-start infinite;
+}
+
+/* ERR */
+.sys-err {
+  animation: blink 0.4s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
 /* ── Captain's ID (Startseite) ── */
 .id-box {
   border: 1px solid var(--border);
