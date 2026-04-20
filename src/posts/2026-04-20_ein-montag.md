@@ -36,15 +36,15 @@ Status der Objekte im inneren: schmutzig.
 Keine Veränderung seit Freitag.  
 Schmutzige Objekte neben manuellem Spülmodul entdeckt.  
 Des weiteren wurden der Versorgungs-Bay zwei schmutzige Löffel hinzugefügt.  
-Grund, Herkunft und Verursacher beider Fälle unbekannt.  
+Grund, Herkunft und Verursacher unbekannt.  
 
 ## Einsatzplan
 
 1. Weitere Anpassungen an Dokumentation erforderlich.  
-  1. Systematisches Abarbeiten von Unterpunkten vorgesehen.
+  - Systematisches Abarbeiten von Unterpunkten vorgesehen.
 2. Integration von Lernphase.
-  1. Unterteilung von Themen in Arbeitsschritte.
-  2. Recherche zu weniger komplexen Punkten durchführen.
+  - Unterteilung von Themen in Arbeitsschritte.
+  - Recherche zu weniger komplexen Punkten durchführen.
   
 ## Status
 
