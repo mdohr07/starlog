@@ -16,7 +16,7 @@ tags:
   - reflexion
   - journal
 
-mood: "entspannt"
+mood: "resigniert"
 
 # Sonstiges
 music:
