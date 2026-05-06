@@ -22,16 +22,13 @@ mood: "rebellisch"
 music:
   title: "Don't Toss Us Away"
   artist: "Patty Loveless"
-  url: ""
-
-  draft: true
+  url: "https://youtu.be/XMN3R4IGE5E"
 ---
 
 Mittwoch Nachmittag am Schreibtisch. Die Tasse ist schon wieder leer.
 
 ## Fokus: Analoges Zeichnen
-
-Das Gefühl ist nostalgisch.  
+ 
 Nähe zur Materie wahrgenommen.  
 Fehlende Zoom-Funktion bei analogem Workflow.  
 Limitierungen gegeben und als positiv bewertet.  
