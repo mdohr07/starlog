@@ -6,8 +6,8 @@ pubDate: 2026-05-11
 
 # Medien
 image:
-  url: ""
-  alt: ""
+  url: "/images/blog/2026-05/Moonstone-Island_01.png"
+  alt: "Moonstone Island Ladebildschirm"
 
 # Kategorien & Stimmung
 tags:
