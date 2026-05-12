@@ -81,7 +81,7 @@ Abenteuer auf Moonstone Island werden fortgesetzt.
   <div>
   <img src="/images/blog/2026-05/Moonstone-Island_03.png" />  
   </div>
-  <figcaption>Kreatur in Portal mit Oakley</figcaption>
+  <figcaption>Kreatur in Portal mit Oaken</figcaption>
 </figure>
 
 <figure>
