@@ -6,7 +6,7 @@ pubDate: 2026-05-15
 
 # Medien
 image:
-  url: "/images/blog/2026-05/vaio-02.jpg"
+  url: "/images/blog/2026-05/vaio-2.jpg"
   alt: "Alter Vaio Laptop"
 
 # Kategorien & Stimmung
@@ -54,7 +54,7 @@ Konsumierte Video-Inhalte beinhalten u.A.:
 
 Bisheriger Favorit:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e9JKUWke3yc?si=sr4uZBmjpAdUH13D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/e9JKUWke3yc?si=sr4uZBmjpAdUH13D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="min-height:315px"></iframe>
 
 ### Fokus: Alter Laptop
 
@@ -65,14 +65,14 @@ Mein alter Mini-Laptop, den ich kaum benutzt habe.
 
 <figure>
   <div>
-  <img src="/images/blog/2026-05/vaio-01.jpg" />  
+  <img src="/images/blog/2026-05/vaio-1.jpg" />  
   </div>
   <figcaption>Zugeklappt</figcaption>
 </figure>
 
 <figure>
   <div>
-  <img src="/images/blog/2026-05/vaio-02.jpg" />  
+  <img src="/images/blog/2026-05/vaio-2.jpg" />  
   </div>
   <figcaption>Aufgeklappt</figcaption>
 </figure>
