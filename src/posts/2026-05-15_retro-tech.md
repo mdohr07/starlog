@@ -1,12 +1,12 @@
 ---
 # Basis-Metadaten
 title: "Personal Log: Retro Tech"
-description: ""
+description: "Ein persönlicher Eintrag über mein Interesse and alter Technologie."
 pubDate: 2026-05-15
 
 # Medien
 image:
-  url: "/images/blog/2026-05/vaio-02.png"
+  url: "/images/blog/2026-05/vaio-02.jpg"
   alt: "Alter Vaio Laptop"
 
 # Kategorien & Stimmung
@@ -65,14 +65,14 @@ Mein alter Mini-Laptop, den ich kaum benutzt habe.
 
 <figure>
   <div>
-  <img src="/images/blog/2026-05/vaio-01.png" />  
+  <img src="/images/blog/2026-05/vaio-01.jpg" />  
   </div>
   <figcaption>Zugeklappt</figcaption>
 </figure>
 
 <figure>
   <div>
-  <img src="/images/blog/2026-05/vaio-02.png" />  
+  <img src="/images/blog/2026-05/vaio-02.jpg" />  
   </div>
   <figcaption>Aufgeklappt</figcaption>
 </figure>
