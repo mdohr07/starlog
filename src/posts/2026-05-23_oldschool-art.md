@@ -6,8 +6,8 @@ pubDate: 2026-05-23
 
 # Medien
 image:
-  url: ""
-  alt: ""
+  url: "/images/blog/2026-05/IMG_9308-min.png"
+  alt: "Ghostbusters Charaktere in Buntstift"
 
 # Kategorien & Stimmung
 tags:
@@ -22,7 +22,7 @@ mood: "rebellisch"
 music:
   title: "Della Jane’s Heart"
   artist: "Appalachian Road Show"
-  url: ""
+  url: "https://youtu.be/rKW81Bj24jY"
 ---
 
 Sonnabend Nachmittag. Draußen ist es heiß und Sonnig. 
@@ -35,36 +35,33 @@ Ursprung in tatsächlichen Kindheitstagen vermutet.
 
 <figure>
   <div>
-  <img src="/images/blog/2026-05/IMG_9307-min.png" />  
+  <img src="/images/blog/2026-05/IMG_9308-min.png" />  
   </div>
-  <figcaption>...</figcaption>
+  <figcaption>Ghostbusters</figcaption>
 </figure>
 
 <figure>
   <div>
-  <img src="/images/blog/2026-05/IMG_9308-min.png" />  
+  <img src="/images/blog/2026-05/IMG_9307-min.png" />  
   </div>
-  <figcaption>...</figcaption>
+  <figcaption>Streets Of Rage Charakter</figcaption>
 </figure>
 
+<figure>
+  <div>
+  <img src="/images/blog/2026-05/IMG_9311-min.png" />  
+  </div>
+  <figcaption>Unbekannt</figcaption>
+</figure>
 
 <figure>
   <div>
   <img src="/images/blog/2026-05/IMG_9315-min.png" />  
   </div>
-  <figcaption>...</figcaption>
+  <figcaption>Kooni</figcaption>
 </figure>
 
-<figure>
-  <div>
-  <img src="/images/blog/2026-05/IMG_9311-min.png" />  
-  </div>
-  <figcaption>...</figcaption>
-</figure>
+## Status
 
-<figure>
-  <div>
-  <img src="/images/blog/2026-05/IMG_9311-min.png" />  
-  </div>
-  <figcaption>...</figcaption>
-</figure>
+Wiederholung der Techniken geplant.  
+Reintegration weiterer Techniken möglich.
