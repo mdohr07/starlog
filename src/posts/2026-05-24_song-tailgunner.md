@@ -6,8 +6,8 @@ pubDate: 2026-05-24
 
 # Medien
 image:
-  url: "/images/blog/2026-05/IMG_9308-min.png"
-  alt: "Ghostbusters Charaktere in Buntstift"
+  url: "/images/blog/2026-05/mqdefault.jpg"
+  alt: "Tailgunner video preview screengrab"
 
 # Kategorien & Stimmung
 tags:
