@@ -49,7 +49,8 @@ Jeweilige Verknüpfungen mit Google präsent.
 ### Ersatzlose Löschung
 
 - **Google Account 2**
-- **DeviantArt** → *Verbindungsaufhebung zu Gmail unmöglich*
+- **DeviantArt** 
+- Verbindungsaufhebung zu Gmail unmöglich
 - **Pinterest Account 1**
 - **Discord**
 - **Spotify**
@@ -71,9 +72,8 @@ Jeweilige Verknüpfungen mit Google präsent.
 - Trennung von Google Account
 - E-Mail Login
 - Verwendung von E-Mail-Maske
-
 - **Firefox**
-- Weitestgehend durch **Zen Browser** ersetzt
+- Weitestgehend durch Zen Browser ersetzt
 
 ## Abweichung
 
