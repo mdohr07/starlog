@@ -48,34 +48,32 @@ Jeweilige Verknüpfungen mit Google präsent.
 
 ### Ersatzlose Löschung
 
-- Google Account 2
-- DeviantArt
-    - *Verbindungsaufhebung zu Gmail unmöglich*
-- Pinterest Account 1
-- Discord
-    - ungenutzt
-    - Datenschutzrisiko
-- Spotify
-
+- **Google Account 2**
+- **DeviantArt** → *Verbindungsaufhebung zu Gmail unmöglich*
+- **Pinterest Account 1**
+- **Discord**
+- **Spotify**
 
 ### Ersetzungen
 
-- YouTube Account 2 → FreeTube im Test
-- Dropbox → LocalSend
-- Notion → Obsidian
-- VS Code → VSCodium
-
+- **YouTube Account 2** 
+- FreeTube im Test
+- **Dropbox**
+- LocalSend
+- **Notion**
+- Obsidian
+- **VS Code**
+- VSCodium
 
 ### Bereinigungen
 
-- **Pinterest Account 2** 
-    - Trennung von Google Account
-    - E-Mail Login
-    - Verwendung von E-Mail-Maske
-
+- **Pinterest Account 2**
+- Trennung von Google Account
+- E-Mail Login
+- Verwendung von E-Mail-Maske
 
 - **Firefox**
-    - Weitestgehend durch **Zen Browser** ersetzt
+- Weitestgehend durch **Zen Browser** ersetzt
 
 ## Abweichung
 
@@ -87,4 +85,5 @@ Theme-Speicherung in VSCodium fehlgeschlagen?
 ## Status
 
 Terminierung des Reddit-Accounts in Zukunft möglich.  
+Sinnhaftigkeit von Obsidian-Nutzung in Untersuchung.  
 Weitere Schritte werden in Betracht gezogen.
