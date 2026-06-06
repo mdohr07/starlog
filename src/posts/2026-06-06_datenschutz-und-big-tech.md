@@ -39,7 +39,7 @@ Accounts von Google und weiteren vorhanden.
 Anzahl: zwei.
 
 Pinterest Accounts vorhanden.  
-Anzehl: zwei.
+Anzahl: zwei.
 Jeweilige Verknüpfungen mit Google präsent.
 
 ## Getroffene Maßnahmen
