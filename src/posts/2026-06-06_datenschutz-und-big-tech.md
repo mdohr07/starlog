@@ -49,8 +49,6 @@ Jeweilige Verknüpfungen mit Google präsent.
 ### Ersatzlose Löschung
 
 - **Google Account 2** 
-    - **YouTube Account 2** 
-    - **FreeTube** im Test
 - **DeviantArt** 
     - *Verbindungsaufhebung zu Gmail unmöglich*
 - **Pinterest Account 1**
@@ -61,6 +59,7 @@ Jeweilige Verknüpfungen mit Google präsent.
 
 ### Ersetzungen
 
+- **YouTube Account 2** → FreeTube im Test
 - **Dropbox** → LocalSend
 - **Notion** → Obsidian
 - **VS Code** → VSCodium
