@@ -1,46 +1,45 @@
 /* ============================================
    STARLOG — Terminal Style
-   Gold on Black
+   Ink & Paper
    ============================================ */
 
-/* Standard Theme: Gold */
+/* Standard Theme: Hell — Tusche auf Papier */
 :root {
-  --bg:          #111111;
-  --bg-hover:    #1a1200;
-  --gold:        #c39768;
-  --gold-dim:    #7a5a38;
-  --gold-glow:   #c3976855;
-  --border:      #2e2010;
-  --text:        #c39768;
-  --text-dim:    #6a4a28;
-  --red:         #f54927;
-  --font:        courier;
-  --header-h:    48px;
-  --footer-h:    36px;
-  --max-w:       720px;
+  --bg: #f2ede3;
+  --bg-hover: #e8e1d2;
+  --gold: #1C2E2C;
+  --gold-dim: #A07C5D;
+  --gold-glow: #fff;
+  --border: #5E5C64;
+  --text: #1C2E2C;
+  --text-dim: #5E5C64;
+  --red: #b8503a;
+  --font: monospace;
+  --header-h: 48px;
+  --footer-h: 36px;
+  --max-w: 720px;
 }
 
+/* Theme: Dunkel — neutrales Gegenstück, kein Gold */
+:root.theme-dark {
+  --bg: #1c1b19;
+  --bg-hover: #272522;
+  --gold: #e8e3d8;
+  --gold-glow: #e8e3d840;
+  --border: #38352f;
+  --text: #e8e3d8;
+  --text-dim: #8c8983;
+}
 
-/* Theme: Grün */
+/* Theme: Grün — Everforest / Osaka Jade inspired */
 :root.theme-green {
-  --gold:      #33ff33;
-  --gold-dim:  #1a7a1a;
-  --gold-glow: #33ff3355;
-  --border:    #0a2a0a;
-  --text:      #33ff33;
-  --text-dim:  #1a7a1a;
-  --bg-hover:  #001400;
-}
-
-/* Theme: White */
-:root.theme-white {
-  --gold:      #e0e0e0;
-  --gold-dim:  #707070;
-  --gold-glow: #e0e0e055;
-  --border:    #2a2a2a;
-  --text:      #e0e0e0;
-  --text-dim:  #707070;
-  --bg-hover:  #1a1a1a;
+  --bg: #152321;
+  --bg-hover: #4f8f6b;
+  --gold: #4f8f6b;
+  --gold-glow: #9bbb7855;
+  --border: #356442;
+  --text: #4f8f6b;
+  --text-dim: #356442;
 }
 
 .theme-switcher {
@@ -58,40 +57,28 @@
 }
 
 /* ── Reset ── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
   font-size: 16px;
   line-height: 1.6;
-  cursor: url(/images/cursor1.gif), crosshair;
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='3' fill='%232e2d2b' stroke='%23f2ede3' stroke-width='1'/%3E%3C/svg%3E") 5 5, auto;
 }
 
-/* ── Scanline overlay ── */
-body::after {
-  content: '';
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  background: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 2px,
-    rgba(0, 0, 0, 0.1) 2px,
-    rgba(0, 0, 0, 0.1) 4px
-  );
-  z-index: 999;
-}
-
-a, button {
-  cursor: url(/images/cursor2.gif), crosshair;
+a,
+button {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 12 12'%3E%3Ccircle cx='6' cy='6' r='4' fill='%232e2d2b' stroke='%23f2ede3' stroke-width='1'/%3E%3C/svg%3E") 6 6, auto;
 }
 
 /* ── Layout ── */
@@ -155,7 +142,7 @@ header {
 }
 
 .site-title {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.25em;
   color: var(--gold);
   text-shadow: 0 0 12px var(--gold-glow);
@@ -203,7 +190,9 @@ header {
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 /* ── Captain's ID (Startseite) ── */
@@ -229,7 +218,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 5px 20px;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 4px;
 }
 
@@ -270,7 +259,7 @@ header {
   display: grid;
   grid-template-columns: 90px 1fr;
   gap: 0 50px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 7px 0;
   border-bottom: 1px solid var(--border);
   text-decoration: none;
@@ -328,7 +317,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .music-block .music-label {
@@ -353,8 +342,15 @@ header {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50%       { opacity: 0; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
 
 .blink {
@@ -362,35 +358,22 @@ header {
   color: var(--gold);
 }
 
-/* ── Flicker animation ── */
-@keyframes flicker {
-  0%,  100% { opacity: 1;   }
-  91%        { opacity: 1;   }
-  92%        { opacity: 0.3; }
-  93%        { opacity: 1;   }
-  97%        { opacity: 1;   }
-  98%        { opacity: 0.5; }
-  99%        { opacity: 1;   }
-}
-
-.flicker {
-  animation: flicker 7s infinite;
-}
-
-.flicker2 {
-  animation: flicker 4s infinite;
-}
-
-.flicker3 {
-  animation: flicker 8s infinite;
-}
-
-
 /* ── Scrollbar ── */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--border); }
-::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-dim);
+}
 
 /* ============================================
    STARLOG — Post Page
@@ -425,7 +408,7 @@ header {
 
 /* ── Post content ── */
 .post-content {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--gold);
   line-height: 1.9;
   margin-bottom: 24px;
@@ -437,7 +420,7 @@ header {
 }
 
 .post-content h2 {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--gold-dim);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -451,7 +434,7 @@ header {
 }
 
 .post-content h3 {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--gold-dim);
   margin: 32px 0 8px;
   font-weight: normal;
@@ -470,7 +453,7 @@ header {
   color: var(--red);
   padding: 1px 6px;
   font-family: var(--font);
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid var(--border);
 }
 
@@ -582,13 +565,13 @@ header {
   margin: 20px 0;
 }
 
-.post-content figure > div {
+.post-content figure>div {
   position: relative;
   border: 1px solid var(--border);
   padding: 10px;
 }
 
-.post-content figure > div::before {
+.post-content figure>div::before {
   content: '> IMAGE';
   position: absolute;
   top: -14px;
@@ -604,13 +587,7 @@ header {
 .post-content img {
   display: block;
   width: 100%;
-  filter: contrast(0.9) grayscale(20%) brightness(0.5) sepia(60%);
-  transition: filter 1s;
-   margin: 32px 0px;
-}
-
-.post-content img:hover {
-  filter: none;
+  margin: 32px 0px;
 }
 
 .post-content figcaption {
