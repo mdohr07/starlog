@@ -20,7 +20,7 @@
   --max-w: 720px;
 }
 
-/* Theme: Dunkel — neutrales Gegenstück, kein Gold */
+/* Theme: Dunkel — neutrales Gegenstück */
 :root.theme-dark {
   --bg: #1c1b19;
   --bg-hover: #272522;
