@@ -6,8 +6,8 @@ pubDate: 2026-06-28
 
 # Medien
 image:
-  url: ""
-  alt: ""
+  url: "https://cdn.cara.app/production/posts/23af86c0-b009-4a1b-9ef3-004f0d808efe/mdohr07-y5eRFIUs1NvRp8y5L5W22-turid-drawing_web.jpeg"
+  alt: "Mein Charakter Turid für Cairn"
 
 # Kategorien & Stimmung
 tags:
