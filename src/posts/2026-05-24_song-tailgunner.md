@@ -1,6 +1,6 @@
 ---
 # Basis-Metadaten
-title: "Beaobachtung: Tears In Rain"
+title: "Beobachtung: Tears In Rain"
 description: "Ein logbucheintrag über analoges Zeichnen - wie damals."
 pubDate: 2026-05-24
 
