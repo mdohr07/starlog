@@ -14,7 +14,7 @@
   --text: #1C2E2C;
   --text-dim: #5E5C64;
   --red: #b8503a;
-  --font: monospace;
+  --font: courier new;
   --header-h: 48px;
   --footer-h: 36px;
   --max-w: 720px;
@@ -73,7 +73,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Ccircle cx='5' cy='5' r='3' fill='%232e2d2b' stroke='%23f2ede3' stroke-width='1'/%3E%3C/svg%3E") 5 5, auto;
 }
@@ -145,7 +145,7 @@ header {
 }
 
 .site-title {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.25em;
   color: var(--gold);
   text-shadow: 0 0 12px var(--gold-glow);
@@ -161,7 +161,7 @@ header {
 }
 
 .header-sub {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.05em;
 }
@@ -212,7 +212,7 @@ header {
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
 }
@@ -221,7 +221,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 5px 20px;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 4px;
 }
 
@@ -243,7 +243,7 @@ header {
 
 /* ── Log Entries (Startseite) ── */
 .entries-label {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   letter-spacing: 0.1em;
   margin-top: 50px;
@@ -262,7 +262,7 @@ header {
   display: grid;
   grid-template-columns: 90px 1fr;
   gap: 0 50px;
-  font-size: 16px;
+  font-size: 14px;
   padding: 7px 0;
   border-bottom: 1px solid var(--border);
   text-decoration: none;
@@ -274,7 +274,7 @@ header {
 
 .entry-tag {
   color: var(--gold-dim);
-  font-size: 16px;
+  font-size: 14px;
   align-self: center;
   letter-spacing: 0.06em;
 }
@@ -289,7 +289,7 @@ header {
 }
 
 .archive-link {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 24px;
 }
@@ -298,14 +298,14 @@ header {
 .quick-links {
   display: flex;
   gap: 24px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 24px;
 }
 
 /* ── Divider ── */
 .divider {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--border);
   margin: 20px 0;
   overflow: hidden;
@@ -320,12 +320,12 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .music-block .music-label {
   color: var(--gold-dim);
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.1em;
 }
 
@@ -339,7 +339,7 @@ header {
 
 /* ── Cursor ── */
 .cursor-line {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-top: 8px;
 }
@@ -385,7 +385,7 @@ header {
 
 /* ── Post header ── */
 .post-meta {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   letter-spacing: 0.1em;
   margin-bottom: 8px;
@@ -404,14 +404,14 @@ header {
 }
 
 .post-sub {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 0;
 }
 
 /* ── Post content ── */
 .post-content {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold);
   line-height: 1.9;
   margin-bottom: 24px;
@@ -423,7 +423,7 @@ header {
 }
 
 .post-content h2 {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -437,7 +437,7 @@ header {
 }
 
 .post-content h3 {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   margin: 32px 0 8px;
   font-weight: normal;
@@ -456,7 +456,7 @@ header {
   color: var(--red);
   padding: 1px 6px;
   font-family: var(--font);
-  font-size: 16px;
+  font-size: 14px;
   border: 1px solid var(--border);
 }
 
@@ -472,7 +472,7 @@ header {
 .post-content pre::before {
   content: '> OUTPUT';
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   margin-bottom: 8px;
@@ -516,7 +516,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 
@@ -532,7 +532,7 @@ header {
   color: var(--gold-dim);
   border: 1px solid var(--border);
   padding: 2px 8px;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.05em;
 }
 
@@ -540,7 +540,7 @@ header {
 .post-nav {
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 20px;
 }
@@ -581,7 +581,7 @@ header {
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   z-index: 1;
@@ -594,7 +594,7 @@ header {
 }
 
 .post-content figcaption {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   padding: 6px 0 0;
   letter-spacing: 0.05em;
@@ -607,7 +607,7 @@ header {
 
 /* ── Archive ── */
 .archive-year {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
   padding: 16px 0 6px;
@@ -623,7 +623,7 @@ header {
 .post-nav .to-archive {
   color: var(--text-dim);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   align-self: center;
 }
@@ -648,18 +648,18 @@ header {
   left: 10px;
   background: var(--bg);
   padding: 0 6px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--gold-dim);
   letter-spacing: 0.15em;
 }
 
 .guest-log-box .guest-log-sub {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--text-dim);
   margin-bottom: 12px;
   margin-top: 4px;
 }
 
 .guest-log-box a {
-  font-size: 16px;
+  font-size: 14px;
 }
