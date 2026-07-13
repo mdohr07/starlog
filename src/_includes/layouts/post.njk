@@ -33,7 +33,7 @@ layout: base.njk
   <div class="cursor-line">_
     <span class="blink">▌</span></div>
 
-  <div class="divider">├────────────────────────────────────────────────</div>
+    <hr>
 
   {% if tags %}
     <div class="post-tags">
@@ -54,11 +54,14 @@ layout: base.njk
       <span></span>
     {% endif %}
 
-    <a href="/archive/" class="to-archive">// archive</a>
-
     {% if nextPost %}
       <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }}</a>
     {% endif %}
+  </div>
+
+  <div>
+    <span class="to-archive">-----</span><br>
+    <a href="/archive/" class="to-archive">// archive</a>
   </div>
 
 </article>

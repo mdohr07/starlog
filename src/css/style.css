@@ -518,6 +518,7 @@ header {
   gap: 10px;
   font-size: 14px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .post-tags .label {
@@ -620,15 +621,17 @@ header {
   color: var(--border);
 }
 
-.post-nav .to-archive {
+.to-archive {
   color: var(--text-dim);
   text-decoration: none;
   font-size: 14px;
   letter-spacing: 0.1em;
-  align-self: center;
+  display: block;
+  width: 100%;
+  text-align: right;;
 }
 
-.post-nav .to-archive:hover {
+.to-archive:hover {
   color: var(--gold);
   text-shadow: 0 0 8px var(--gold-glow);
 }
