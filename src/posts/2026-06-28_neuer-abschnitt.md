@@ -14,7 +14,7 @@ tags:
   - post
   - persönlich
   - journal
-  - personal_log
+  - zeichnen
 
 mood: "Faul"
 

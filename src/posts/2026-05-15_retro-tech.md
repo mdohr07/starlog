@@ -14,7 +14,6 @@ tags:
   - post
   - persönlich
   - journal
-  - personal_log
 
 mood: "Gut"
 

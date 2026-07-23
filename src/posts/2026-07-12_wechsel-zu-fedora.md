@@ -15,7 +15,6 @@ tags:
   - persönlich
   - tech
   - journal
-  - personal_log
 
 mood: "Hungrig"
 
