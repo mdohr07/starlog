@@ -19,6 +19,8 @@ export default function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat(format);
   });
 
+  eleventyConfig.addGlobalData("currentYear", () => new Date().getFullYear());
+
   // array limit
   eleventyConfig.addFilter("limit", (array, n) => {
     return array.slice(0, n);

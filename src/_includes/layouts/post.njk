@@ -1,67 +1,54 @@
---- 
-layout: base.njk 
+---
+layout: base.njk
 ---
 
 <article>
 
+  <h1 class="post-title">{{ title }}</h1>
+
   <div class="post-meta">
-    &gt; LOG ENTRY //
-    {{ pubDate | date("yyyy.MM.dd") }}
-    //
-    {% for tag in tags %}{% endfor %}
+    {{ pubDate | date("yyyy.MM.dd") }} · {{ site.author }}
     {% if mood %}
-      <span class="tag">MOOD:
-        {{ mood }}</span>
+    <span class="mood">― {{ mood }}</span>
     {% endif %}
   </div>
 
-  <h1 class="post-title">{{ title }}</h1>
-
-  <p class="post-sub">{{ site.author }}
-    &nbsp;·&nbsp;
-    {{ content | wordcount }}
-    Wörter</p>
-
   {% if music %}
-    {% include "components/music.njk" %}
+  {% include "components/music.njk" %}
   {% endif %}
 
   <div class="post-content">
     {{ content | safe }}
   </div>
 
-  <div class="cursor-line">_
-    <span class="blink">▌</span></div>
-
-    <hr>
+  <hr>
 
   {% if tags %}
-    <div class="post-tags">
-      <span class="label">TAGS</span>
-      <span class="sep">│</span>
-      {% for tag in tags %}
-        {% if tag != "post" %}
-          <a href="/tags/{{ tag }}/" class="tag-box">{{ tag }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
+  <div class="post-tags">
+    <span class="label">Label</span>
+    <span class="sep">│</span>
+    {% for tag in tags %}
+    {% if tag != "post" %}
+    <a href="/tags/{{ tag }}/" class="tag-box">{{ tag }}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
   {% endif %}
 
   <div class="post-nav">
     {% if previousPost %}
-      <a href="{{ previousPost.url }}" class="prev">{{ previousPost.data.title }}</a>
+    <a href="{{ previousPost.url }}" class="prev">{{ previousPost.data.title }}</a>
     {% else %}
-      <span></span>
+    <span></span>
     {% endif %}
 
     {% if nextPost %}
-      <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }}</a>
+    <a href="{{ nextPost.url }}" class="next">{{ nextPost.data.title }}</a>
     {% endif %}
   </div>
 
   <div>
-    <span class="to-archive">-----</span><br>
-    <a href="/archive/" class="to-archive">// archive</a>
+    <a href="/archive/" class="to-archive">→ archive</a>
   </div>
 
 </article>

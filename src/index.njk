@@ -3,28 +3,60 @@ layout: base.njk
 title: "Home"
 ---
 <div class="id-box">
-  <span class="box-label">&gt; OPERATOR ID</span>
-  <div class="id-grid">
-    <span class="label">DESIGNATION</span><span class="value">mdohr07</span>
-    <span class="label">CLASS</span><span class="value dim">archivist, unaffiliated</span>
-    <span class="label">ALIGNMENT</span><span class="value dim">chaotic thoughtful</span>
-    <span class="label">SIGNAL</span><span class="value dim">irregular, mostly analog</span>
-    <span class="label">STATUS</span><span class="value active">◆ NEW COLOR SCHEMES IMPLEMENTED</span>
-  </div>
-</div>
-<div class="entries-label">&gt; RECENT ENTRIES</div>
-<div class="entries">
-  {% for post in collections.posts | limit(5) %}
-    <div class="entry">
-      <span class="entry-date">{{ post.date | date("yyyy.MM.dd") }}</span>
-      <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
+    <dl class="id-grid">
+        <dt>Name</dt>
+        <dd>mdohr07</dd>
+        <dt>Class</dt>
+        <dd>archivist, unaffiliated</dd>
+        <dt>Alignment</dt>
+        <dd>chaotic thoughtful</dd>
+        <dt>Course</dt>
+        <dd>north, mostly</dd>
+        <dt>Note</dt>
+        <dd><span class="accent">◆ </span>Changing the course</dd>
+    </dl>
+    <div class="id-art">
     </div>
-  {% endfor %}
 </div>
-<div class="archive-link">└─ → <a href="/archive/">access full archive</a></div>
+
+<h2>Recent entries</h2>
+<div class="entries">
+    {% for post in collections.posts | limit(5) %}
+    <div class="entry">
+        <span class="entry-date">{{ post.date | date("yyyy.MM.dd") }}</span>
+        <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
+    </div>
+    {% endfor %}
+</div>
+<div class="archive-link"><a href="/archive/">access full archive →</a></div>
+
+<h2>Recent artworks</h2>
+<div class="gallery-container">
+    <div class="img-wrapper">
+        <a href="#">
+            <img src="/images/gallery/cairn-map_colored_compressed.png" alt="">
+        </a>
+    </div>
+    <div class="img-wrapper">
+        <a href="#">
+            <img src="/images/gallery/ink_landscape.png" alt="">
+        </a>
+    </div>
+    <div class="img-wrapper">
+        <a href="#">
+            <img src="/images/gallery/eddo-min.jpeg" alt="">
+        </a>
+    </div>
+    <div class="img-wrapper">
+        <a href="#">
+            <img src="/images/gallery/ink_turid@bar.png" alt="">
+        </a>
+    </div>
+
+</div>
+
 <div class="guest-log-box">
-  <span class="box-label">&gt; GUEST LOG</span>
-  <p class="guest-log-sub">messages from elsewhere</p>
-  <a href="https://users2.smartgb.com/g/g.php?a=s&i=g26-39641-50" target="_blank" rel="noopener noreferrer">→ open channel</a>
+    <b>Notice Board</b>
+    <p class="guest-log-sub">messages from travellers</p>
+    <a href="https://users2.smartgb.com/g/g.php?a=s&i=g26-39641-50" target="_blank" rel="noopener noreferrer">→ open</a>
 </div>
-<section class="header-sub" style="text-align: right; margin-top: -20px;">MEM: [■■■■□□□□□□□□] 33%</section>
