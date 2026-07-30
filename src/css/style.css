@@ -158,9 +158,11 @@ header {
 /* ── Captain's ID (Startseite) ── */
 .id-box {
   display: grid;
+  align-items: center;
   grid-template-columns: 60% auto;
   gap: 2rem;
   border: none;
+  margin-bottom: 3rem;
 }
 
 .id-grid {
@@ -168,13 +170,14 @@ header {
   grid-template-columns: max-content 1fr;
   column-gap: 0;
   row-gap: 10px;
+  height: fit-content;
   font-size: 20px;
-  margin-bottom: 2rem;
 }
 
 .id-grid dt {
   font-weight: bold;
   border-bottom: 1px dashed var(--text);
+  font-variant: small-caps
 }
 
 .id-grid dd {
@@ -191,6 +194,7 @@ header {
 .id-art {
   background-color: white;
   opacity: 0.4;
+  aspect-ratio: 1 / 1;
 }
 
 /* ── Log Entries (Startseite) ── */
@@ -311,6 +315,13 @@ header {
   margin-bottom: 24px;
 }
 
+.post-content > p:first-of-type::first-letter {
+  font-family: "Fjord", serif;
+  font-size: 32px;
+  float: left;
+  margin: 3px 2px 0 0;
+}
+
 .post-content a {
   color: var(--red);
   text-decoration: underline;
@@ -363,6 +374,18 @@ header {
 .post-content ol {
   padding-left: 24px;
   margin-bottom: 18px;
+}
+
+.post-content ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.post-content ul li::before {
+  content: '● ';
+  font-size: smaller;
+  color: var(--red);
+  padding-right: 20px;
 }
 
 /* ── Post tags ── */
@@ -446,13 +469,13 @@ header {
 .post-content img {
   display: block;
   width: 100%;
-  margin: 32px 0px auto 0px;
+  margin: 32px 0px;
 }
 
 .post-content figcaption {
   font-size: 18px;
   color: var(--text);
-  padding: 6px 0 0;
+  margin: -20px 0px 32px 0;
   letter-spacing: 0.05em;
   font-style: italic;
   opacity: 0.7;
@@ -531,6 +554,75 @@ header {
 .guest-log-box a {
   color: var(--turquoise);
   font-size: 20px;
-  ;
   text-decoration: underline dotted;
+}
+
+@media (max-width: 900px) {
+    .site-wrapper {
+    padding: 0 20px;
+    border: none;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0.5rem;
+    margin: 0 10px;
+  }
+
+  .header-sub {
+    font-size: 20px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .site-wrapper {
+    width: 100%;
+    padding: 0 0.25rem;
+    min-height: 100vh;
+    display: flex;
+    border: none;
+  }
+
+  .id-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* .id-art {
+    order: -1;
+  } */
+
+  .entry {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+  .post-title {
+    font-size: 28px;
+  }
+
+  .post-meta {
+    font-size: 18px;
+  }
+
+  .music-block {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .music-block .music-sep {
+    display: none;
+  }
+
+  .post-nav,
+  .to-archive {
+    font-size: 20px;
+  }
 }

@@ -24,7 +24,6 @@ music:
   artist: ""
   url: ""
 ---
-
 Abends am Schreibtisch.  
 Das Bier ist alkoholfrei.  
 Es wird in die Tasten gehauen.
