@@ -43,9 +43,9 @@ h1 {
 }
 
 h2 {
-  font-family: "Modern Antiqua", serif;
   color: var(--turquoise-pale);
   font-size: 22px;
+  font-weight: bold;
 }
 
 h3,
@@ -114,7 +114,7 @@ hr {
 /* ── Header ── */
 header {
   padding: 1rem 1.5rem;
-  border-bottom: 1px solid;
+  border-bottom: 3px double;
   text-align: center;
   margin: 0 35px;
 }
@@ -314,8 +314,9 @@ header {
 .post-title {
   font-size: 32px;
   color: var(--turquoise);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.025em;
   margin-bottom: 6px;
+  font-family: "Fjord", serif;
 }
 
 /* ── Post content ── */
