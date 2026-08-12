@@ -313,7 +313,7 @@ header {
 }
 
 .post-title {
-  font-size: 32px;
+  font-size: 28px;
   color: var(--turquoise);
   letter-spacing: 0.025em;
   margin-bottom: 6px;
@@ -329,9 +329,12 @@ header {
 }
 
 .post-content > p:first-of-type::first-letter {
+  display: inline-flex;
+  float: inline-start;
+  margin-block-start: 11px;
+  margin-inline-end: 10px;
   font-family: "Fjord", serif;
   font-size: 32px;
-  float: left;
   margin: 3px 2px 0 0;
 }
 
@@ -486,7 +489,7 @@ header {
 }
 
 .post-content figcaption {
-  font-size: 18px;
+  font-size: 12px;
   color: var(--text);
   margin: -20px 0px 32px 0;
   letter-spacing: 0.05em;
