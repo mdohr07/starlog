@@ -167,19 +167,22 @@ header {
 /* ── Captain's ID (Startseite) ── */
 .id-box {
   display: grid;
-  align-items: center; 
-  grid-template-columns: 40% 60%; 
+  align-items: center;
+  grid-template-columns: 30% 70%;
   border: none;
   margin-bottom: 3rem;
+  gap: 2rem;
 }
 
 .id-art {
-  background-image: url('/images/deko_01.png');
-  background-size: 200px;
-  background-position: left center;
+  background-image: url('/images/wickwief.png');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 0.9;
   aspect-ratio: 1 / 1;
+  border: 1px dotted var(--red);
+  max-height: 220px;
 }
 
 .id-grid {
@@ -609,6 +612,7 @@ header {
   .id-art {
     order: -1;
     background-position: center;
+    max-height: 100%;
   } 
 
   .entry {
