@@ -34,6 +34,15 @@
     {% include "components/footer.njk" %}
   </div>
 
+{% include "components/footer.njk" %}
+  </div>
+
+  <!-- Lightbox-Overlay -->
+  <div class="lightbox-overlay" id="lightbox-overlay">
+    <button class="lightbox-close" aria-label="close">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+  </div>
+
   <script>
     const themes = ["default", "theme-green", "theme-white"];
 
