@@ -33,26 +33,33 @@ title: "Home"
 
 <h2>Recent artworks</h2>
 <div class="gallery-container">
-    <div class="img-wrapper">
-        <a href="#">
-            <img src="/images/gallery/cairn-map_colored_compressed.png" alt="">
-        </a>
-    </div>
-    <div class="img-wrapper">
-        <a href="#">
-            <img src="/images/gallery/ink_landscape.png" alt="">
-        </a>
-    </div>
-    <div class="img-wrapper">
-        <a href="#">
-            <img src="/images/gallery/eddo-min.jpeg" alt="">
-        </a>
-    </div>
-    <div class="img-wrapper">
-        <a href="#">
-            <img src="/images/gallery/ink_turid@bar.png" alt="">
-        </a>
-    </div>
+  <div class="img-wrapper">
+    <a href="/images/gallery/cairn-map_colored_compressed.png" class="lightbox-trigger" data-caption="">
+      <img src="/images/gallery/cairn-map_colored_compressed.png" alt="">
+    </a>
+  </div>
+  <div class="img-wrapper">
+    <a href="/images/gallery/ink_landscape.png" class="lightbox-trigger" data-caption="">
+      <img src="/images/gallery/ink_landscape.png" alt="">
+    </a>
+  </div>
+  <div class="img-wrapper">
+    <a href="/images/gallery/eddo-min.jpeg" class="lightbox-trigger" data-caption="">
+      <img src="/images/gallery/eddo-min.jpeg" alt="">
+    </a>
+  </div>
+  <div class="img-wrapper">
+    <a href="/images/gallery/ink_turid@bar.png" class="lightbox-trigger" data-caption="">
+      <img src="/images/gallery/ink_turid@bar.png" alt="">
+    </a>
+  </div>
+</div>
+
+<!-- *~ Lightbox-Overlay ~* -->
+<div class="lightbox-overlay" id="lightbox-overlay">
+  <button class="lightbox-close" aria-label="close">&times;</button>
+  <img src="" alt="" id="lightbox-img">
+  <p class="lightbox-caption" id="lightbox-caption"></p>
 </div>
 
 <div class="divider"></div>
@@ -62,3 +69,4 @@ title: "Home"
     <p class="guest-log-sub">messages from travellers</p>
     <a href="https://users2.smartgb.com/g/g.php?a=s&i=g26-39641-50" target="_blank" rel="noopener noreferrer">→ open</a>
 </div>
+

@@ -546,11 +546,52 @@ header {
   transform: scale(1.5);
   object-position: 40% 15%;
   margin: 5px;
-  filter: contrast(90%);
+  filter: opacity(90%);
 }
 
 .gallery-container img:hover {
-  filter: contrast(100%);
+  filter: opacity(100%);
+}
+
+/* ── Lightbox ── */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: var(--text);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+}
+
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: var(--bg);
+  font-size: 2.5rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.lightbox-caption {
+  color: var(--bg);
+  margin-top: 1rem;
+  font-style: italic;
 }
 
 /* ── Guest Log Box ── */
