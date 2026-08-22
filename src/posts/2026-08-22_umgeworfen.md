@@ -26,7 +26,7 @@ music:
 ---
 
 Sonnabend nachmittag. Der Tee ist mal wieder zu schnell ausgetrunken, japanischer City Pop läuft.
-Lange ist es her, dass ich über mein Worldbuilding/TTRPG-Projekt "Vice/Starships" geschrieben habe.
+Lange ist es her, dass ich über mein Worldbuilding/TTRPG-Projekt „Vice/Starships“ geschrieben habe.
 Seitdem ist viel passiert: ich musste mir selbst etwas eingestehen und habe die ganze Idee einmal umgeworfen.
 
 Das Projekt als solches existiert, aber es ist ein anderes. Mir ist aufgefallen, dass das Konzept nicht so richtig aufgeht.
@@ -37,12 +37,12 @@ funktioniert, ohne überladen oder überwältigend zu sein. Mit Vice/Starships h
 
 Ich möchte beinahe sagen das Genre, aber nicht vollständig. Es wird Fantasy-lastiger.
 Es gibt eine Fusion mit einem meiner alten Projekte - eines, das ich nie abgeschlossen habe.
-Das Projekt von damals heißt "Skymir" und spielt in der Zukunft, aber das Setting ist nicht Weltraum
+Das Projekt von damals heißt „Skymir“ und spielt in der Zukunft, aber das Setting ist nicht Weltraum
 sondern nordisch-mystisch und trotzdem futuristisch.
 
 Diesen Aspekt übernehme ich jetzt in Vice/Starships (was sicherlich in Zukunft anders heißen wird)
 und aus persönlichem Interesse und für das gewisse Etwas (um nicht Exotik zu sagen) lasse ich mich
-auch vom "typisch Norddeutschem" inspirieren.
+auch vom „typisch Norddeutschem“ inspirieren.
 
 ## Stand jetzt
 
