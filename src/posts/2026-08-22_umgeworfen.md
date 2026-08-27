@@ -64,7 +64,7 @@ Stand schreiben.
 
 <figure>
   <div>
-    <img src="https://cdn.cara.app/production/posts/28cf9050-c201-40c3-bc70-79cec21da804/mdohr07-25u0wg7uuL7mbDPFmR2vz-wickwief_web.png" alt="Wickwief Charakterklasse" />
+    <img src="/images/blog/2026-08/wickwief_web.png" alt="Wickwief Charakterklasse" />
   </div>
   <figcaption>Wickwief: eine Charakterklasse, an der ich noch arbeite.</figcaption>
 </figure>
