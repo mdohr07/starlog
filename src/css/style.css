@@ -145,6 +145,7 @@ header {
   padding: 0 30px;
   font-size: 18px;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .site-footer a {
