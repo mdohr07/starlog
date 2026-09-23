@@ -30,7 +30,7 @@ Buch bin ich ein paar Seiten weiter.
 
 Der September war bis hierhin durchwachsen. Stressvolle Phasen und Versuche, diese auszubalancieren —
 Ruhe schaffen. Einige Dinge kamen zu kurz. Andere haben mehr Aufmerksamkeit bekommen.  
-Journal, Tee, Radfahren, Zen, Zines, zeichnen, Gesellschaft. Für morgens und Abends habe ich
+Journal, Tee, Radfahren, Zen, Zines, zeichnen, Gesellschaft. Für morgens und abends habe ich
 eine stabile Struktur. Das kleine Tuschefässchen steht zur Erinnerung — oder zur sanften Aufforderung —
 jetzt immer vor mir auf dem Tisch.
 
