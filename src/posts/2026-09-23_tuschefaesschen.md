@@ -2,7 +2,7 @@
 # Basis-Metadaten
 title: "Das Tuschefässchen auf dem Tisch"
 description: "Zwischenstand aus einem unruhigen September: warum Analoges gerade wie von selbst läuft, Bildschirme nerven und Zen der rote Faden bleibt."
-pubDate: 2026-08-30
+pubDate: 2026-09-23
 
 # Medien
 image:
