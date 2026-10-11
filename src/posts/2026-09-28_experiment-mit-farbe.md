@@ -2,7 +2,7 @@
 # Basis-Metadaten
 title: "Experiment mit Farbe"
 description: "Ein Experiment, der Ruf der Farbe und wie ich diese mit meinem bisherigen Vorgehen vereinbare."
-#pubDate: 2026-09-28
+pubDate: 2026-09-28
 
 # Medien
 image:
