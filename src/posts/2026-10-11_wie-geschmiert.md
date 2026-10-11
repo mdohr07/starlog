@@ -2,7 +2,7 @@
 # Basis-Metadaten
 title: "Wie geschmiert"
 description: "Mein Inktober läuft wie geschmiert: Mit flachen Farben, vereinfachten Formen und drei Prompt-Listen zeichne ich so leicht wie seit Jahren nicht."
-#pubDate: 2026-09-28
+pubDate: 2026-10-11
 
 # Medien
 image:
