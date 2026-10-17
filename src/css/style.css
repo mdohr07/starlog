@@ -539,7 +539,7 @@ header {
 .gallery-container .img-wrapper {
   overflow: hidden;
   border:3px double;
-}
+  }
 
 .gallery-container img {
   width: 100%;
