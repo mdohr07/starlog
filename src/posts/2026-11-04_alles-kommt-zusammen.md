@@ -26,7 +26,7 @@ music:
   url: "https://talesundertheoak.bandcamp.com/album/the-toad-folk-ii"
 ---
 
-Ein Sonniger Mittag, ich höre Musik.  Ich hatte gedacht, ich würde jetzt eine Runde Borderlands spielen, 
+Ein sonniger Mittag, ich höre Musik.  Ich hatte gedacht, ich würde jetzt eine Runde Borderlands spielen, 
 aber dann überkamen mich mehrere andere, kreativere Ideen, die mich von einer enstpannten Runde Zocken 
 abhalten.  
 Und eigentlich wollte ich ja schon Ende Oktober einen Eintrag veröffentlichen. Das hole ich jetzt nach und schreibe darüber, was es Neues gibt.
