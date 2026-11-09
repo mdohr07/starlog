@@ -1,6 +1,6 @@
 export default {
   title: "Starlog",
-  author: "mdohr07",
+  author: "Misteldohr",
   url: "https://mdohr.space",
   defaultImage: "https://mdohr.space/images/default.png"
 }
