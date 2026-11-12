@@ -408,14 +408,56 @@ header {
   padding-right: 20px;
 }
 
-/* ── Post tags ── */
+/* ── Post footer ── */
+.post-footer {
+  border: 3px double var(--red);
+  padding: 1rem;
+  text-align: center;
+}
+
+.reply {
+  margin-bottom: 0.8rem;
+}
+
+.reply a {
+  background-color: var(--red);
+  color: var(--bg);
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+}
+
 .post-tags {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   font-size: 20px;
-  margin-bottom: 24px;
   flex-wrap: wrap;
+  border-top: 1px dashed;
+}
+
+.post-tags span {
+  font-style: italic;
+  margin-top: 0.8rem;
+  color: var(--text);
+}
+
+.tag-box {
+  color: var(--red);
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  font-style: italic;
+  margin-top: 0.8rem;
+}
+
+.tag-box::after {
+  content: ', ';
+  color: var(--text);
+}
+
+.tag-box:last-child::after {
+  content: '';
 }
 
 .post-tags .label {
@@ -434,28 +476,11 @@ header {
   color: var(--red);
 }
 
-.tag-box {
-  color: var(--red);
-  font-size: 20px;
-  letter-spacing: 0.05em;
-  text-decoration: none;
-  font-style: italic;
-}
-
-.tag-box::after {
-  content: ', ';
-  color: var(--text);
-}
-
-.tag-box:last-child::after {
-  content: '';
-}
-
 /* ── Post navigation (prev/next) ── */
 .post-nav {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid;
+  /* border-top: 1px solid; */
   font-size: larger;
   color: var(--text);
   padding: 24px 0;

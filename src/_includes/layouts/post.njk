@@ -21,17 +21,26 @@ layout: base.njk
     {{ content | safe }}
   </div>
 
-  <hr>
+  <div class="post-footer">
 
-  {% if tags %}
-  <div class="post-tags">
-    {% for tag in tags %}
-    {% if tag != "post" %}
-    <a href="/tags/{{ tag }}/" class="tag-box">{{ tag }}</a>
+    <p class="reply">
+      <a href="mailto:medesuyo@duck.com?subject=Re: {{ title | urlencode }}">
+        Reply via email
+      </a>
+    </p>
+
+    {% if tags %}
+    <div class="post-tags">
+      <span>Tagged as </span>
+      {% for tag in tags %}
+      {% if tag != "post" %}
+      <a href="/tags/{{ tag }}/" class="tag-box">{{ tag }}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
     {% endif %}
-    {% endfor %}
+
   </div>
-  {% endif %}
 
   <div class="post-nav">
     {% if previousPost %}
