@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,31 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="icon" type="image/png" href="/images/favicon.png">
 
-    <!-- Open Graph -->
+  {% set metaDescription = description or site.description %}
+  <meta name="description" content="{{ metaDescription }}">
+
+  <!-- Open Graph -->
   <meta property="og:title" content="{{ title }} // {{ site.title }}">
-  <meta property="og:description" content="{{ description }}">
+  <meta property="og:description" content="{{ metaDescription }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
   {% if image and image.url %}
-    <meta property="og:image" content="{{ image.url }}">
-    <meta property="og:image:alt" content="{{ image.alt }}">
+  <meta property="og:image" content="{{ image.url }}">
+  <meta property="og:image:alt" content="{{ image.alt }}">
   {% else %}
-    <meta property="og:image" content="{{ site.defaultImage }}">
+  <meta property="og:image" content="{{ site.defaultImage }}">
   {% endif %}
 
   <!-- Twitter/X Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title }} // {{ site.title }}">
-  <meta name="twitter:description" content="{{ description }}">
+  <meta name="twitter:description" content="{{ metaDescription }}">
   {% if image and image.url %}
-    <meta property="twitter:image" content="{{ image.url }}">
-    <meta property="twitter:image:alt" content="{{ image.alt }}">
+  <meta property="twitter:image" content="{{ image.url }}">
+  <meta property="twitter:image:alt" content="{{ image.alt }}">
   {% endif %}
 </head>
+
 <body>
   <div class="site-wrapper">
     {% include "components/header.njk" %}
@@ -35,7 +40,7 @@
     {% include "components/footer.njk" %}
   </div>
 
-   <!-- Lightbox-Overlay -->
+  <!-- Lightbox-Overlay -->
   <div class="lightbox-overlay" id="lightbox-overlay">
     <button class="lightbox-close" aria-label="close">&times;</button>
     <img src="" alt="" id="lightbox-img">
@@ -54,4 +59,5 @@
   </script>
   <script src="/js/lightbox.js" defer></script>
 </body>
+
 </html>
