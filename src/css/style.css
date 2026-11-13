@@ -156,8 +156,20 @@ header {
 }
 
 .M {
-  color: var(--red);
   margin-right: 10px;
+  font-style: oblique;
+  font-family: initial;
+  letter-spacing: 3px;
+  opacity: 0.6;
+}
+
+.rss a {
+  background-color: var(--red);
+  color: var(--bg);
+  text-decoration: none;
+  opacity: 1;
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
 .currentYear {
