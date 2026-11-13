@@ -7,9 +7,9 @@ layout: base.njk
   <h1 class="post-title">{{ title }}</h1>
 
   <div class="post-meta">
-    {{ pubDate | date("yyyy.MM.dd") }} · {{ site.author }}
+    {{ pubDate | date("yyyy.MM.dd") }} · 
     {% if mood %}
-    <span class="mood">― {{ mood }}</span>
+    <span class="mood">{{ mood }}</span>
     {% endif %}
   </div>
 
@@ -20,6 +20,9 @@ layout: base.njk
   <div class="post-content">
     {{ content | safe }}
   </div>
+
+  <!-- {{ site.author }} -->
+  <p class="author">Mistel.</p>
 
   <div class="post-footer">
 

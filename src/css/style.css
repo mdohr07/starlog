@@ -1,5 +1,5 @@
 /* ============================================
-   STARLOG — Terminal Style
+   STARLOG — 
    Ink & Paper
    ============================================ */
 
@@ -163,6 +163,13 @@ header {
 .currentYear {
   opacity: 0.6;
   margin: 0 10px;
+}
+
+.author {
+  font-style: oblique;
+  font-family: initial;
+  letter-spacing: 3px;
+  margin: 1rem 0;
 }
 
 /* ── Captain's ID (Startseite) ── */
